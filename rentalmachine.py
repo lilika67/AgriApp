@@ -14,3 +14,5 @@ elif starting_hour > 24 or ending_hour > 24:
     print("Your hours must be within the range of 0-24 because it is a daily program")
     else:
         rental_hours = ending_hour - starting_hour
+        if machine == 1:
+            amount = rental_hours * 1000
