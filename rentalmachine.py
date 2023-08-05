@@ -1,3 +1,4 @@
+#This python codes are for all the group members
 print("--------WELCOME TO OUR AGRICULTURAL RENTING MACHINE----------")
 print("We have the following machines. Please choose any machine you want:")
 print("1. Plow per one hour 1000/h")
