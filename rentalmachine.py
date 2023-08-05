@@ -20,3 +20,4 @@ elif starting_hour > 24 or ending_hour > 24:
         elif machine == 5:
             amount = rental_hours * 1200
             print("The amount of money you need to pay is", amount)
+            elif machine == 2:
