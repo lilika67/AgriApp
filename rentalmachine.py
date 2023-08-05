@@ -6,3 +6,4 @@ print("3. Rotary Tiller 2000/h")
 print("4. Cultivator 800/h")
 print("5. Subsoiler 1200/h")
 
+machine = int(input("Please choose any type of the machine(enter a number betueen 1 and 5):"))
