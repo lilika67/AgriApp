@@ -23,3 +23,4 @@ elif starting_hour > 24 or ending_hour > 24:
             elif machine == 2:
                 amount = rental_hours * 1500
                 elif machine == 3:
+                elif machine == 5:
