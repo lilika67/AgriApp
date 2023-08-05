@@ -8,3 +8,4 @@ print("5. Subsoiler 1200/h")
 
 machine = int(input("Please choose any type of the machine(enter a number betueen 1 and 5):"))
 if starting_hour >= ending_hour:
+print("The starting hour must be less than the ending hour")
