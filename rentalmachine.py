@@ -11,3 +11,4 @@ machine = int(input("Please choose any type of the machine(enter a number betuee
 if starting_hour >= ending_hour:
 print("The starting hour must be less than the ending hour")
 elif starting_hour > 24 or ending_hour > 24:
+    print("Your hours must be within the range of 0-24 because it is a daily program")
