@@ -16,7 +16,7 @@ else:
 
 if starting_hour >= ending_hour:
     print("The starting hour must be less than the ending hour")
-else if  starting_hour > 24 or ending_hour > 24:
+else  starting_hour > 24 or ending_hour > 24:
     print("Your hours must be within the range of 0-24 because it is a daily program")
     else:
         rental_hours = ending_hour - starting_hour
