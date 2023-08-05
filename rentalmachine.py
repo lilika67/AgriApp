@@ -10,19 +10,20 @@ print("5. Subsoiler 1200/h")
 machine = int(input("Please choose any type of the machine(enter a number betueen 1 and 5):"))
 
 if starting_hour >= ending_hour:
-print("The starting hour must be less than the ending hour")
-elif starting_hour > 24 or ending_hour > 24:
+    print("The starting hour must be less than the ending hour")
+else if  starting_hour > 24 or ending_hour > 24:
     print("Your hours must be within the range of 0-24 because it is a daily program")
     else:
         rental_hours = ending_hour - starting_hour
+
         if machine == 1:
             amount = rental_hours * 1000
-        elif machine == 5:
-            amount = rental_hours * 1200
+        else if machine == 2:
+            amount = rental_hours * 1500
+        else if machine == 3:
+            amount = rental_hours * 2000
+        else if machine == 4:
+            amount = rental_hours * 800
+        else if machine == 5:
+            amount = rental_hours * 1200
             print("The amount of money you need to pay is", amount)
-            elif machine == 2:
-                amount = rental_hours * 1500
-                elif machine == 3:
-#to be arranged
-                elif machine == 5:
-                amount = rental_hours * 1200
